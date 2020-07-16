@@ -1,0 +1,19 @@
+```
+模块：组合和继承
+```
+```
+组合
+<modules>
+    <module>spring-entity</module>
+    <module>spring-dao</module>
+    <module>spring-app</module>
+</modules>
+```
+```
+继承
+ <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.0.5.RELEASE</version>
+</parent>
+```
